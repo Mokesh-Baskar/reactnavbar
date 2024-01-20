@@ -1,0 +1,42 @@
+
+#html{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading{
+   
+    padding-left: 20px;
+    margin: 0;
+    
+}
+
+.tabs{
+    display: flex;
+}
+
+.tabs li{
+    display: flex;
+    list-style: none;
+    padding-right: 20px;
+    position: relative;
+    
+   
+}
+
+.pill{
+    font-size: 20px;
+    font-family: 'Raedex Pro', sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 1em;
+    background-color: white;
+    color: red;
+    
+}
